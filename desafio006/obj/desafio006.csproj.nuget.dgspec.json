@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio005/desafio005.csproj": {}
+    "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/desafio006.csproj": {}
   },
   "projects": {
-    "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio005/desafio005.csproj": {
+    "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/desafio006.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio005/desafio005.csproj",
-        "projectName": "desafio005",
-        "projectPath": "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio005/desafio005.csproj",
+        "projectUniqueName": "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/desafio006.csproj",
+        "projectName": "desafio006",
+        "projectPath": "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/desafio006.csproj",
         "packagesPath": "/home/filipirafael/.nuget/packages/",
-        "outputPath": "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio005/obj/",
+        "outputPath": "/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/filipirafael/.nuget/NuGet/NuGet.Config"
@@ -35,12 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Pomelo.EntityFrameworkCore.MySql.Design": {
-              "target": "Package",
-              "version": "[*, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -52,9 +46,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

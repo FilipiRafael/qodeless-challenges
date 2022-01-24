@@ -1,0 +1,4 @@
+/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/obj/Debug/netcoreapp3.1/desafio006.csprojAssemblyReference.cache
+/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/obj/Debug/netcoreapp3.1/desafio006.AssemblyInfoInputs.cache
+/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/obj/Debug/netcoreapp3.1/desafio006.AssemblyInfo.cs
+/home/filipirafael/Documents/workspace/qodeless-challenges/desafio006/obj/Debug/netcoreapp3.1/desafio006.csproj.CoreCompileInputs.cache
