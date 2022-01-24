@@ -13,7 +13,7 @@ namespace Desafio_003
         public int Nota { get; set; }
         public override string ToString()
         {
-            return "Nome: " + this.Nome + "    NOTA: " + this.Nota;
+            return "Nome: " + this.Nome + " | Nota: " + this.Nota;
         }
     }
 
@@ -22,21 +22,22 @@ namespace Desafio_003
         static void Main(string[] args)
         {
 
-            int alunosQTD;
+            int alunosQuantidade;
 
-            Console.WriteLine("Olá, para criar a sua tabela, informe quantos alunos tem em sua sala.");
-            alunosQTD = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Olá, digite a quantidade de alunos em sua sala: ");
+            alunosQuantidade = Int32.Parse(Console.ReadLine());
 
             List<Aluno> listaAlunos = new List<Aluno>();
 
 
-            for (int i = 0; i < alunosQTD; i++)
+            for (int i = 0; i < alunosQuantidade; i++)
             {
                 var aluno = new Aluno();
-                Console.WriteLine("Digite o nome do aluno: ");
+                Console.WriteLine("Digite o nome do aluno(a): ");
                 aluno.Nome = Console.ReadLine();
-                Console.WriteLine("Digite a nota do aluno: ");
+                Console.WriteLine("Digite a nota do(a) " + aluno.Nome + ": ");
                 aluno.Nota = Int32.Parse(Console.ReadLine());
+                Console.WriteLine();
 
                 listaAlunos.Add(aluno);
             }
@@ -52,7 +53,8 @@ namespace Desafio_003
                 Console.WriteLine(aluno.ToString());
             }
 
-            Console.WriteLine("O aluno com a maior nota é: ");
+            Console.WriteLine("========= MAIOR NOTA ========");
+            Console.WriteLine("O melhor aluno foi: ");
             Console.WriteLine(alunoMaiorNota.ToString());
             Console.ReadLine();
 
