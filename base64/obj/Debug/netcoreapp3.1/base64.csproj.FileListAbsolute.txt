@@ -1,0 +1,13 @@
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.csprojAssemblyReference.cache
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.AssemblyInfoInputs.cache
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.AssemblyInfo.cs
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.csproj.CoreCompileInputs.cache
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/bin/Debug/netcoreapp3.1/base64
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/bin/Debug/netcoreapp3.1/base64.deps.json
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/bin/Debug/netcoreapp3.1/base64.runtimeconfig.json
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/bin/Debug/netcoreapp3.1/base64.runtimeconfig.dev.json
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/bin/Debug/netcoreapp3.1/base64.dll
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/bin/Debug/netcoreapp3.1/base64.pdb
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.dll
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.pdb
+/home/filipirafael/Documents/workspace/qodeless-challenges/base64/obj/Debug/netcoreapp3.1/base64.genruntimeconfig.cache
