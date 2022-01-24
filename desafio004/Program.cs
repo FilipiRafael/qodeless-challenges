@@ -13,7 +13,8 @@ namespace Desafio_004
         public int Nota { get; set; }
         public override string ToString()
         {
-            return "Nome: " + this.Nome + "    IDADE: " + this.Idade + "    NOTA: " + this.Nota;
+            // Em notas acumuladas, podería refatorar para mostrar apenas a nota individual de cada aluno, apenas no final a somatória
+            return "Nome: " + this.Nome + " | Idade: " + this.Idade + " | Notas Acumuladas: " + this.Nota;
         }
     }
 
@@ -22,18 +23,18 @@ namespace Desafio_004
         static void Main(string[] args)
         {
 
-            int alunosQTD = 3;
+            int alunosQuantidade = 3;
             Aluno alunos = new Aluno();
             List<Aluno> listaAlunos = new List<Aluno>();
 
-            for (int i = 0; i < alunosQTD; i++)
+            for (int i = 0; i < alunosQuantidade; i++)
             {
                 var aluno = new Aluno();
-                Console.WriteLine("Digite o nome do aluno: ");
+                Console.WriteLine("Digite o nome do(a) aluno: ");
                 aluno.Nome = Console.ReadLine();
-                Console.WriteLine("Digite a idade do aluno: ");
+                Console.WriteLine("Digite a idade de " + aluno.Nome + ": ");
                 aluno.Idade = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Digite a nota do aluno: ");
+                Console.WriteLine("Digite a nota de " + aluno.Nome + ": ");
                 aluno.Nota = Int32.Parse(Console.ReadLine());
 
                 listaAlunos.Add(aluno);
@@ -50,8 +51,10 @@ namespace Desafio_004
                 Console.WriteLine(aluno);
             }
 
-            Console.WriteLine("A soma das notas dos três alunos é: ");
-            Console.WriteLine(alunosSoma.Nota);
+            Console.WriteLine("");
+            Console.WriteLine("========== SOMA ==========");
+            Console.WriteLine("");
+            Console.WriteLine("A soma das três notas resulta em: " + alunosSoma.Nota + ".");
             Console.ReadLine();
 
         }
